@@ -1,0 +1,52 @@
+
+====================================================================================================
+DETAILLIERTER STATISTISCHER BERICHT - DACHMATERIAL (F1-SCORE)
+====================================================================================================
+Primäre Metrik: F1-Score (Macro Average)
+Signifikanzniveau: 0.05 (mit Bonferroni-Korrektur)
+Anzahl Runs pro Experiment: 5
+Statistischer Test: Wilcoxon Signed-Rank Test
+Effektstärkemaß: Cliff's Delta
+
+
+Keine signifikanten F1-Score Verbesserungen gefunden!
+
+
+ZUSAMMENFASSUNG NACH STRATEGIE (F1-SCORE):
+----------------------------------------------------------------------------------------------------
+
+Entropy Sampling:
+  - Signifikante F1-Score Verbesserungen: 0/25 (0.0%)
+  - Durchschnittliche F1-Score Verbesserung: 12.97%
+  - Durchschnittliche Effektstärke: 0.189
+
+Margin Sampling:
+  - Signifikante F1-Score Verbesserungen: 0/25 (0.0%)
+  - Durchschnittliche F1-Score Verbesserung: 12.05%
+  - Durchschnittliche Effektstärke: 0.138
+
+Least Confidence:
+  - Signifikante F1-Score Verbesserungen: 0/25 (0.0%)
+  - Durchschnittliche F1-Score Verbesserung: 11.66%
+  - Durchschnittliche Effektstärke: 0.218
+
+
+ZUSAMMENFASSUNG NACH KLASSIFIKATOR (F1-SCORE):
+----------------------------------------------------------------------------------------------------
+
+Neural Network:
+  - Signifikante F1-Score Verbesserungen: 0/15 (0.0%)
+
+Naive Bayes:
+  - Signifikante F1-Score Verbesserungen: 0/15 (0.0%)
+
+Random Forest:
+  - Signifikante F1-Score Verbesserungen: 0/15 (0.0%)
+
+Logistic Regression:
+  - Signifikante F1-Score Verbesserungen: 0/15 (0.0%)
+
+SVM:
+  - Signifikante F1-Score Verbesserungen: 0/15 (0.0%)
+
+====================================================================================================

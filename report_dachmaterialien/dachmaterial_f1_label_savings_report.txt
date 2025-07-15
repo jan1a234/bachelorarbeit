@@ -1,0 +1,176 @@
+
+================================================================================
+LABEL-EINSPARUNGS-BERICHT - Dachmaterial (F1-SCORE BASIERT)
+================================================================================
+
+ZIEL: 90% der Baseline F1-Score Performance
+------------------------------------------------------------
+
+Logistic Regression:
+  Baseline F1-Score (Random 100%): 0.1883
+  Ziel F1-Score: 0.1694
+  Labels benötigt:
+    - Least Confidence    :    400 ±  244 ( 93.9% gespart)
+      -> 20.0% weniger Labels als Random Sampling
+    - Margin Sampling     :    400 ±  244 ( 93.9% gespart)
+      -> 20.0% weniger Labels als Random Sampling
+    - Random Sampling     :    500 ±  374 ( 92.4% gespart)
+    - Entropy Sampling    :    958 ± 1425 ( 85.4% gespart)
+
+Naive Bayes:
+  Baseline F1-Score (Random 100%): 0.0289
+  Ziel F1-Score: 0.0260
+  Labels benötigt:
+    - Random Sampling     :    100 ±    0 ( 98.5% gespart)
+    - Entropy Sampling    :    100 ±    0 ( 98.5% gespart)
+    - Margin Sampling     :    100 ±    0 ( 98.5% gespart)
+    - Least Confidence    :    100 ±    0 ( 98.5% gespart)
+
+Neural Network:
+  Baseline F1-Score (Random 100%): 0.1814
+  Ziel F1-Score: 0.1633
+  Labels benötigt:
+    - Random Sampling     :  1,696 ± 1451 ( 74.1% gespart)
+    - Margin Sampling     :  1,696 ± 1451 ( 74.1% gespart)
+    - Least Confidence    :  2,671 ± 1951 ( 59.3% gespart)
+    - Entropy Sampling    :  2,831 ± 1897 ( 56.8% gespart)
+
+Random Forest:
+  Baseline F1-Score (Random 100%): 0.2315
+  Ziel F1-Score: 0.2084
+  Labels benötigt:
+    - Margin Sampling     :    700 ±  200 ( 89.3% gespart)
+      -> 22.2% weniger Labels als Random Sampling
+    - Random Sampling     :    900 ±  244 ( 86.3% gespart)
+    - Entropy Sampling    :  1,198 ± 1149 ( 81.7% gespart)
+    - Least Confidence    :  1,576 ± 1567 ( 76.0% gespart)
+
+SVM:
+  Baseline F1-Score (Random 100%): 0.1774
+  Ziel F1-Score: 0.1597
+  Labels benötigt:
+    - Random Sampling     :  1,676 ± 1517 ( 74.4% gespart)
+    - Least Confidence    :  1,696 ± 1451 ( 74.1% gespart)
+    - Entropy Sampling    :  1,756 ± 1524 ( 73.2% gespart)
+    - Margin Sampling     :  1,756 ± 1550 ( 73.2% gespart)
+
+ZIEL: 95% der Baseline F1-Score Performance
+------------------------------------------------------------
+
+Logistic Regression:
+  Baseline F1-Score (Random 100%): 0.1883
+  Ziel F1-Score: 0.1788
+  Labels benötigt:
+    - Random Sampling     :    998 ± 1233 ( 84.8% gespart)
+    - Margin Sampling     :  1,456 ± 1719 ( 77.8% gespart)
+    - Least Confidence    :  1,456 ± 1696 ( 77.8% gespart)
+    - Entropy Sampling    :  1,535 ± 2171 ( 76.6% gespart)
+
+Naive Bayes:
+  Baseline F1-Score (Random 100%): 0.0289
+  Ziel F1-Score: 0.0275
+  Labels benötigt:
+    - Random Sampling     :    100 ±    0 ( 98.5% gespart)
+    - Entropy Sampling    :    100 ±    0 ( 98.5% gespart)
+    - Margin Sampling     :    100 ±    0 ( 98.5% gespart)
+    - Least Confidence    :    100 ±    0 ( 98.5% gespart)
+
+Neural Network:
+  Baseline F1-Score (Random 100%): 0.1814
+  Ziel F1-Score: 0.1724
+  Labels benötigt:
+    - Random Sampling     :  1,696 ± 1451 ( 74.1% gespart)
+    - Margin Sampling     :  2,373 ± 1851 ( 63.8% gespart)
+    - Least Confidence    :  2,751 ± 1916 ( 58.0% gespart)
+    - Entropy Sampling    :  3,130 ± 1997 ( 52.3% gespart)
+
+Random Forest:
+  Baseline F1-Score (Random 100%): 0.2315
+  Ziel F1-Score: 0.2199
+  Labels benötigt:
+    - Margin Sampling     :  1,656 ± 1579 ( 74.7% gespart)
+      -> 42.3% weniger Labels als Random Sampling
+    - Least Confidence    :  2,573 ± 1979 ( 60.8% gespart)
+      -> 10.3% weniger Labels als Random Sampling
+    - Random Sampling     :  2,870 ± 2463 ( 56.2% gespart)
+    - Entropy Sampling    :  3,030 ± 2244 ( 53.8% gespart)
+
+SVM:
+  Baseline F1-Score (Random 100%): 0.1774
+  Ziel F1-Score: 0.1686
+  Labels benötigt:
+    - Random Sampling     :  2,453 ± 1826 ( 62.6% gespart)
+    - Least Confidence    :  2,453 ± 1901 ( 62.6% gespart)
+    - Margin Sampling     :  2,613 ± 1810 ( 60.2% gespart)
+    - Entropy Sampling    :  2,871 ± 2112 ( 56.2% gespart)
+
+ZIEL: 98% der Baseline F1-Score Performance
+------------------------------------------------------------
+
+Logistic Regression:
+  Baseline F1-Score (Random 100%): 0.1883
+  Ziel F1-Score: 0.1845
+  Labels benötigt:
+    - Least Confidence    :  1,636 ± 1663 ( 75.0% gespart)
+      -> 46.4% weniger Labels als Random Sampling
+    - Margin Sampling     :  2,135 ± 1764 ( 67.4% gespart)
+      -> 30.0% weniger Labels als Random Sampling
+    - Entropy Sampling    :  2,670 ± 2614 ( 59.3% gespart)
+      -> 12.5% weniger Labels als Random Sampling
+    - Random Sampling     :  3,051 ± 1892 ( 53.5% gespart)
+
+Naive Bayes:
+  Baseline F1-Score (Random 100%): 0.0289
+  Ziel F1-Score: 0.0283
+  Labels benötigt:
+    - Random Sampling     :    100 ±    0 ( 98.5% gespart)
+    - Entropy Sampling    :    100 ±    0 ( 98.5% gespart)
+    - Margin Sampling     :    100 ±    0 ( 98.5% gespart)
+    - Least Confidence    :    100 ±    0 ( 98.5% gespart)
+
+Neural Network:
+  Baseline F1-Score (Random 100%): 0.1814
+  Ziel F1-Score: 0.1778
+  Labels benötigt:
+    - Random Sampling     :  1,696 ± 1451 ( 74.1% gespart)
+    - Margin Sampling     :  2,671 ± 1951 ( 59.3% gespart)
+    - Least Confidence    :  3,130 ± 1977 ( 52.3% gespart)
+    - Entropy Sampling    :  3,348 ± 2118 ( 48.9% gespart)
+
+Random Forest:
+  Baseline F1-Score (Random 100%): 0.2315
+  Ziel F1-Score: 0.2269
+  Labels benötigt:
+    - Random Sampling     :  2,988 ± 2572 ( 54.4% gespart)
+    - Margin Sampling     :  3,268 ± 2276 ( 50.2% gespart)
+    - Entropy Sampling    :  3,466 ± 2429 ( 47.1% gespart)
+    - Least Confidence    :  3,785 ± 2444 ( 42.3% gespart)
+
+SVM:
+  Baseline F1-Score (Random 100%): 0.1774
+  Ziel F1-Score: 0.1739
+  Labels benötigt:
+    - Margin Sampling     :  2,773 ± 1734 ( 57.7% gespart)
+      -> 15.2% weniger Labels als Random Sampling
+    - Least Confidence    :  2,831 ± 2020 ( 56.8% gespart)
+      -> 13.4% weniger Labels als Random Sampling
+    - Random Sampling     :  3,270 ± 1947 ( 50.1% gespart)
+    - Entropy Sampling    :  3,866 ± 2017 ( 41.0% gespart)
+
+
+BESTE STRATEGIEN (bei 95% F1-Score Performance):
+------------------------------------------------------------
+Logistic Regression: Random Sampling (nur 998 Labels = 84.8% Einsparung)
+Naive Bayes: Random Sampling (nur 100 Labels = 98.5% Einsparung)
+Neural Network: Random Sampling (nur 1,696 Labels = 74.1% Einsparung)
+Random Forest: Margin Sampling (nur 1,656 Labels = 74.7% Einsparung)
+SVM: Random Sampling (nur 2,453 Labels = 62.6% Einsparung)
+
+
+DURCHSCHNITTLICHE EINSPARUNGEN ÜBER ALLE KLASSIFIKATOREN:
+------------------------------------------------------------
+Entropy Sampling: -32.2% weniger Labels als Random Sampling
+Least Confidence: -19.6% weniger Labels als Random Sampling
+Margin Sampling: -10.0% weniger Labels als Random Sampling
+
+================================================================================
