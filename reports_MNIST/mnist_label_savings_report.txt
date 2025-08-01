@@ -1,0 +1,121 @@
+
+================================================================================
+LABEL-EINSPARUNGS-BERICHT - MNIST
+================================================================================
+
+ZIEL: 90% der Baseline-Performance
+------------------------------------------------------------
+
+CNN:
+  Baseline (Random 100%): 0.9959
+  Ziel-Accuracy: 0.8963
+  Labels benötigt:
+    - Margin Sampling     :  1,600 ±    0 ( 97.3% gespart)
+      -> 17.2% weniger Labels als Random Sampling
+    - Random Sampling     :  1,933 ±  235 ( 96.8% gespart)
+    - Entropy Sampling    :  1,933 ±  235 ( 96.8% gespart)
+    - Least Confidence    :  2,433 ±  623 ( 95.9% gespart)
+
+Naive Bayes:
+  Baseline (Random 100%): 0.5560
+  Ziel-Accuracy: 0.5004
+  Labels benötigt:
+    - Random Sampling     :    600 ±    0 ( 99.0% gespart)
+    - Entropy Sampling    :    600 ±    0 ( 99.0% gespart)
+    - Margin Sampling     :    600 ±    0 ( 99.0% gespart)
+    - Least Confidence    :    600 ±    0 ( 99.0% gespart)
+
+Random Forest:
+  Baseline (Random 100%): 0.9690
+  Ziel-Accuracy: 0.8721
+  Labels benötigt:
+    - Random Sampling     :    766 ±  235 ( 98.7% gespart)
+    - Entropy Sampling    :    766 ±  235 ( 98.7% gespart)
+    - Margin Sampling     :    766 ±  235 ( 98.7% gespart)
+    - Least Confidence    :    766 ±  235 ( 98.7% gespart)
+
+ZIEL: 95% der Baseline-Performance
+------------------------------------------------------------
+
+CNN:
+  Baseline (Random 100%): 0.9959
+  Ziel-Accuracy: 0.9461
+  Labels benötigt:
+    - Margin Sampling     :  1,933 ±  235 ( 96.8% gespart)
+      -> 20.5% weniger Labels als Random Sampling
+    - Random Sampling     :  2,433 ±  235 ( 95.9% gespart)
+    - Entropy Sampling    :  2,600 ±  408 ( 95.7% gespart)
+    - Least Confidence    :  2,766 ±  235 ( 95.4% gespart)
+
+Naive Bayes:
+  Baseline (Random 100%): 0.5560
+  Ziel-Accuracy: 0.5282
+  Labels benötigt:
+    - Random Sampling     :    600 ±    0 ( 99.0% gespart)
+    - Entropy Sampling    :    600 ±    0 ( 99.0% gespart)
+    - Margin Sampling     :    600 ±    0 ( 99.0% gespart)
+    - Least Confidence    :    600 ±    0 ( 99.0% gespart)
+
+Random Forest:
+  Baseline (Random 100%): 0.9690
+  Ziel-Accuracy: 0.9205
+  Labels benötigt:
+    - Margin Sampling     :  1,100 ±    0 ( 98.2% gespart)
+      -> 51.5% weniger Labels als Random Sampling
+    - Least Confidence    :  1,766 ±  235 ( 97.1% gespart)
+      -> 22.1% weniger Labels als Random Sampling
+    - Entropy Sampling    :  2,100 ±    0 ( 96.5% gespart)
+      -> 7.4% weniger Labels als Random Sampling
+    - Random Sampling     :  2,266 ±  235 ( 96.2% gespart)
+
+ZIEL: 98% der Baseline-Performance
+------------------------------------------------------------
+
+CNN:
+  Baseline (Random 100%): 0.9959
+  Ziel-Accuracy: 0.9760
+  Labels benötigt:
+    - Margin Sampling     :  2,933 ±  235 ( 95.1% gespart)
+      -> 31.2% weniger Labels als Random Sampling
+    - Entropy Sampling    :  3,266 ±  235 ( 94.6% gespart)
+      -> 23.4% weniger Labels als Random Sampling
+    - Least Confidence    :  3,266 ±  235 ( 94.6% gespart)
+      -> 23.4% weniger Labels als Random Sampling
+    - Random Sampling     :  4,266 ±  235 ( 92.9% gespart)
+
+Naive Bayes:
+  Baseline (Random 100%): 0.5560
+  Ziel-Accuracy: 0.5449
+  Labels benötigt:
+    - Random Sampling     :    600 ±    0 ( 99.0% gespart)
+    - Entropy Sampling    :    600 ±    0 ( 99.0% gespart)
+    - Margin Sampling     :    600 ±    0 ( 99.0% gespart)
+    - Least Confidence    :    600 ±    0 ( 99.0% gespart)
+
+Random Forest:
+  Baseline (Random 100%): 0.9690
+  Ziel-Accuracy: 0.9496
+  Labels benötigt:
+    - Margin Sampling     :  2,100 ±    0 ( 96.5% gespart)
+      -> 78.5% weniger Labels als Random Sampling
+    - Least Confidence    :  3,100 ±  408 ( 94.8% gespart)
+      -> 68.3% weniger Labels als Random Sampling
+    - Entropy Sampling    :  4,266 ±  235 ( 92.9% gespart)
+      -> 56.3% weniger Labels als Random Sampling
+    - Random Sampling     :  9,766 ±  471 ( 83.7% gespart)
+
+
+BESTE STRATEGIEN (bei 95% Performance):
+------------------------------------------------------------
+CNN: Margin Sampling (nur 1,933 Labels = 96.8% Einsparung)
+Naive Bayes: Random Sampling (nur 600 Labels = 99.0% Einsparung)
+Random Forest: Margin Sampling (nur 1,100 Labels = 98.2% Einsparung)
+
+
+DURCHSCHNITTLICHE EINSPARUNGEN ÜBER ALLE KLASSIFIKATOREN:
+------------------------------------------------------------
+Entropy Sampling: 0.2% weniger Labels als Random Sampling
+Least Confidence: 2.8% weniger Labels als Random Sampling
+Margin Sampling: 24.0% weniger Labels als Random Sampling
+
+================================================================================
