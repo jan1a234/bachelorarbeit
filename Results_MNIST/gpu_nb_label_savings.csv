@@ -1,0 +1,13 @@
+strategy,target_performance,target_accuracy,avg_labels_needed,std_labels_needed,savings_pct,relative_savings_pct,random_100_acc
+Random Sampling,90,0.0882,600.0,0.0,99.0,0.0,0.098
+Entropy Sampling,90,0.0882,600.0,0.0,99.0,0.0,0.098
+Margin Sampling,90,0.0882,600.0,0.0,99.0,0.0,0.098
+Least Confidence,90,0.0882,600.0,0.0,99.0,0.0,0.098
+Random Sampling,95,0.0931,600.0,0.0,99.0,0.0,0.098
+Entropy Sampling,95,0.0931,600.0,0.0,99.0,0.0,0.098
+Margin Sampling,95,0.0931,600.0,0.0,99.0,0.0,0.098
+Least Confidence,95,0.0931,600.0,0.0,99.0,0.0,0.098
+Random Sampling,98,0.09604,600.0,0.0,99.0,0.0,0.098
+Entropy Sampling,98,0.09604,600.0,0.0,99.0,0.0,0.098
+Margin Sampling,98,0.09604,600.0,0.0,99.0,0.0,0.098
+Least Confidence,98,0.09604,600.0,0.0,99.0,0.0,0.098

@@ -1,0 +1,16 @@
+strategy,budget_pct,baseline_mean,baseline_std,strategy_mean,strategy_std,improvement,improvement_pct,wilcoxon_statistic,p_value,cliffs_delta,effect_size,n_samples,p_value_corrected,significant
+Entropy Sampling,0.2,0.098,0.0,0.098,0.0,0.0,0.0,0.0,1.0,0.0,negligible,5,1.0,False
+Margin Sampling,0.2,0.098,0.0,0.098,0.0,0.0,0.0,0.0,1.0,0.0,negligible,5,1.0,False
+Least Confidence,0.2,0.098,0.0,0.098,0.0,0.0,0.0,0.0,1.0,0.0,negligible,5,1.0,False
+Entropy Sampling,0.4,0.098,0.0,0.098,0.0,0.0,0.0,0.0,1.0,0.0,negligible,5,1.0,False
+Margin Sampling,0.4,0.098,0.0,0.098,0.0,0.0,0.0,0.0,1.0,0.0,negligible,5,1.0,False
+Least Confidence,0.4,0.098,0.0,0.098,0.0,0.0,0.0,0.0,1.0,0.0,negligible,5,1.0,False
+Entropy Sampling,0.6,0.098,0.0,0.098,0.0,0.0,0.0,0.0,1.0,0.0,negligible,5,1.0,False
+Margin Sampling,0.6,0.098,0.0,0.098,0.0,0.0,0.0,0.0,1.0,0.0,negligible,5,1.0,False
+Least Confidence,0.6,0.098,0.0,0.098,0.0,0.0,0.0,0.0,1.0,0.0,negligible,5,1.0,False
+Entropy Sampling,0.8,0.098,0.0,0.098,0.0,0.0,0.0,0.0,1.0,0.0,negligible,5,1.0,False
+Margin Sampling,0.8,0.098,0.0,0.098,0.0,0.0,0.0,0.0,1.0,0.0,negligible,5,1.0,False
+Least Confidence,0.8,0.098,0.0,0.098,0.0,0.0,0.0,0.0,1.0,0.0,negligible,5,1.0,False
+Entropy Sampling,1.0,0.098,0.0,0.098,0.0,0.0,0.0,0.0,1.0,0.0,negligible,5,1.0,False
+Margin Sampling,1.0,0.098,0.0,0.098,0.0,0.0,0.0,0.0,1.0,0.0,negligible,5,1.0,False
+Least Confidence,1.0,0.098,0.0,0.098,0.0,0.0,0.0,0.0,1.0,0.0,negligible,5,1.0,False
