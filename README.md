@@ -266,4 +266,4 @@ Dieses Projekt wurde im Rahmen einer Bachelorarbeit erstellt. Die Verwendung fü
 
 ---
 
-*Entwickelt im Rahmen der Bachelorarbeit zum Thema "Active Learning für effiziente Bildklassifikation"*
+*Entwickelt im Rahmen der Bachelorarbeit zum Thema "Effiziente Generierung von Trainingsdaten in der Bildklassifikation"*
