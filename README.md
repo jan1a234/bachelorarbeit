@@ -4,6 +4,10 @@
 
 Dieses Repository enthält die Implementierung und experimentelle Evaluierung verschiedener Active Learning Strategien für die Bildklassifikation. Die Arbeit untersucht, wie Machine Learning Modelle durch intelligente Auswahl von Trainingsdaten effizienter trainiert werden können, wodurch der Annotationsaufwand erheblich reduziert wird.
 
+## Erstellungshinweis
+
+**Dieses Repository wurde mit Unterstützung von Claude Opus 4 (Anthropic) entwickelt.** Claude Opus 4 hat bei der Konzeption, Implementierung und Dokumentation des Codes sowie bei der Strukturierung der Active Learning Strategien assistiert.
+
 ## Inhaltsverzeichnis
 
 - [Projektstruktur](#projektstruktur)
